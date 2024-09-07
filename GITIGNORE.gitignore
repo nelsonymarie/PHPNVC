@@ -1,0 +1,23 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+
+# Ignore environment and sensitive files
+.env
+.env.local
+
+# Ignore logs and temporary files
+logs/
+*.log
+tmp/
+
+# Ignore vendor directory (if using Composer)
+vendor/
+
+# Ignore cache and compiled files
+cache/
+*.class
+*.php~
